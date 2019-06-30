@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .header {
+            text-align: center;
+            width: 80vw;
+            margin: auto;
+            color: white;
+        }
+
+        .content {
+            display: flex;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .outerbar {
+            display: inline-block;
+        }
+
+        .right-col {
+            padding: 20px;
+
+        }
+
+        .left-col {
+            padding: 20px 0;
+            width: 280px;
+            background-color: lightgreen;
+            border-radius: 15px 0 0 15px;
+        }
+
+        .right-col {
+            flex: 1;
+            background-color: turquoise;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .left-col span h2 {
+            margin: 20px
+        }
+
+        .image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: auto;
+            display: block;
+        }
+
+        .outerbar {
+            height: 15px;
+            width: 80%;
+            background-color: white;
+        }
+
+        .innerbar1,
+        .innerbar2,
+        .innerbar3,
+        .innerbar4 {
+            background-color: blue;
+            height: 15px;
+        }
+
+        .innerbar1 {
+            width: 80%;
+        }
+
+        .innerbar2 {
+            width: 60%;
+        }
+
+        .innerbar3 {
+            width: 90%;
+        }
+
+        .innerbar4 {
+            width: 40%;
+        }
+
+        .person-detail {
+            display: flex;
+        }
+
+        .person-detail .first {
+            width: 20px;
+            height: 30px;
+            padding: 10px 0;
+        }
+
+        .person-detail .first i {
+            font-size: 20px;
+        }
+
+        .person-detail .first.phone i {
+            font-size: 30px;
+        }
+
+
+        .person-detail .second {
+            flex: 1;
+            margin-left: 10px;
+            padding: 10px 0 0;
+        }
+
+        .person-detail .second.phone {
+            padding: 15px 0 0;
+        }
+
+        table {
+            border: none;
+            border-collapse: collapse;
+        }
+
+        tr {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: solid 2px black;
+
+        }
+
+        td {
+            border: none;
+        }
+
+        .padded-div {
+            padding: 0px 20px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .eduTable {
+            width: 100%;
+            height: 50%;
+        }
+
+        .padded-div h5 {
+            margin: 10px 0 5px;
+        }
+
+        .edu-outer {
+            margin: 30px 0 15px;
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: rgb(9, 9, 109);
+            border-radius: 10px;
+        }
+
+        .edu {
+            display: inline;
+            color: white;
+        }
+
+        .right-col pre {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bg {
+            background: url('images/flower.jpg');
+            filter: blur(8px);
+            height: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: fixed;
+            width: 100vw;
+        }
+
+        .content-outer {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translatex(-50%);
+            margin-bottom: 20px;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+        .name{
+            font-size: 4vw;
+        }
+        .profile {
+            font-size: 2vw;
+        }
+        .justified {
+            text-align: justify;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="content-outer">
+        <div class="header">
+            <h1>Curriculum Vitae</h1>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <img class="image" src="images/nutan.JPG" />
+                <div class="padded-div perInfo">
+                    <h2>Personal Information</h2>
+                </div>
+                <div class="padded-div">
+                    <div class="person-detail">
+
+                        <div class="first phone">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </div>
+                        <div class="second phone">
+                            9465521398
+                        </div>
+                    </div>
+                    <div class="person-detail">
+                        <div class="first">
+                            <i class="fa fa-address-book" aria-hidden="true"></i>
+                        </div>
+                        <div class="second">
+                            V.P.O Mandal, Teh Jubbal
+                            Distt Shimla (H.P)
+                            Pin Code 171216
+                        </div>
+                    </div>
+
+                    <div class="person-detail">
+                        <div class="first">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="second">
+                            nutanrani10704@gmail.com
+                        </div>
+                    </div>
+                    <div>
+
+                        <h2>Objective</h2>
+                        <p class="justified">
+                            Secure a responsible career opportunity to fully utilize my training and skills, while
+                            making a significant contribution to the success of the company.
+                        </p>
+
+                        <h2>Skill</h2>
+                        <h5>HTML</h5>
+                        <div class="outerbar">
+                            <div class="innerbar1"></div>
+                        </div>
+                        <h5>CSS</h5>
+                        <div class="outerbar">
+                            <div class="innerbar2"></div>
+                        </div>
+                        <h5>Core Java</h5>
+                        <div class="outerbar">
+                            <div class="innerbar3"></div>
+                        </div>
+                        <h5>Android</h5>
+                        <div class="outerbar">
+                            <div class="innerbar4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div>
+                    <div class="nameDiv">
+                        <h1 class="name">Nutan Rani</h1>
+                        <h4 class="profile">Android Developer</h4>
+                    </div>
+
+                    <p class="justified">
+                        A forward-thinking developer offering more than four years of experience building, integrating,
+                        testing, and supporting Android applications for mobile and tablet devices on the Android
+                        platform seeks position with a top technology firm.Extensive experience in mobile application software
+                        development Explicit knowledge of mobile device architectures and mobile development platform
+                        In-depth knowledge of Android OS, developing in ADS, interactive application development and
+                        memory management. Proficient with common Android framework APIs ( Location, Camera, Notifcations, Map AP)
+                        Skilled in J2ME/J2SE and Android application performance analysis and tuning
+                        Proven software architecture and API design skills
+                        Excellent problem solving, communication, and collaboration skills
+                        Strong analytical and creative problem solving skills
+                        Education
+                    </p>
+
+                    <div class="edu-outer">
+                        <h2 class="edu">Education</h2>
+                    </div>
+
+                    <table class="eduTable">
+                        <tr>
+                            <td><b>Class</b></td>
+                            <td><b>Board of education</b></td>
+                            <td><b>Percentage</b></td>
+                        </tr>
+                        <tr>
+                            <td>10th</td>
+                            <td>Himachal Board of Dharamshala</td>
+                            <td>55%</td>
+                        </tr>
+                        <tr>
+                            <td>12th</td>
+                            <td>Himachal Board of Dharamshala</td>
+                            <td>61%</td>
+                        </tr>
+                        <tr>
+                            <td>Diploma In IT Engg</td>
+                            <td>Himachal Board of Dharamshala</td>
+                            <td>65%</td>
+                        </tr>
+                        <tr>
+                            <td>Degree in CSE</td>
+                            <td>Punjab Technical University</td>
+                            <td>76%</td>
+                        </tr>
+                    </table>
+                    <div class="edu-outer" style="margin-top: 46px;">
+                        <h2 class="edu">Work Experience</h2>
+                    </div>
+                    <table class="eduTable">
+                        <tr>
+                            <td>
+                                December 2018 - Present
+                            </td>
+                            <td>
+                                Cybertron Technologies
+                                Working as HR + BDE
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                September 2018 - December
+                            </td>
+
+                            <td>
+                                Smartwiz Technologies
+                                Working as HR
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                June 2018 - August 2018
+                            </td>
+                            <td>
+                                V Logic Labs
+                                Working as Android Trainee
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
